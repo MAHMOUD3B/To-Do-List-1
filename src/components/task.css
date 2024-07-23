@@ -1,0 +1,41 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 10px;
+
+  .data {
+    font-size: 16px;
+  }
+
+  .del-btn {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(255, 67, 67);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}
+
+@media(max-width: 576px) {
+  .task {
+
+    .del-btn {
+      font-size: 14px;
+    }
+  }
+}
